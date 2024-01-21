@@ -1,0 +1,30 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "userId":"87654321",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "safety": "1.2"
+    },
+    {
+      "userId":"87654321",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "safety": "1.2"
+    },
+    {
+      "userId":"87654321",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "safety": "1.2"
+    },
+    {
+      "userId":"87654321",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "safety": "1.2"
+    }
+  ]
+}

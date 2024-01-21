@@ -1,0 +1,72 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "tokenId":"BTC",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"USDT",
+      "total":"1000.00",
+      "borrowed":"500.00",
+      "rate": "0.5"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    },
+    {
+      "tokenId":"ETH",
+      "total":"5000.00",
+      "borrowed":"500.00",
+      "rate": "0.1"
+    }
+  ]
+}

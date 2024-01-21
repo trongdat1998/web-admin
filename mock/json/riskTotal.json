@@ -1,0 +1,13 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "userNum": 99999,
+      "loanValue": "1000.00",
+      "allValue": "10000.00000000",
+      "unfinishedNum": 400,
+      "averageSafety": "2.33"
+    }
+  ]
+}

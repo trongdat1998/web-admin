@@ -1,0 +1,23 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "accountId": "1234567",
+      "accountName": "账户a",
+      "accountType": 1,
+      "accountIndex": 0,
+      "authorizedOrg":false,
+      "tokenList":[{
+        "tokenId":"BTC",
+        "loanable": "1000.00",
+        "borrowed":"500.00"
+      },
+      {
+        "tokenId":"ETH",
+        "loanable": "1000.00",
+        "borrowed":"500.00"
+      }]
+    }
+  ]
+}

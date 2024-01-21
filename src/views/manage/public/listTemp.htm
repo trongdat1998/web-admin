@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="${language}">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>${pageTitle!}</title>
+  <meta name="keywords" content="${pageKeyWords!}" />
+  <meta name="description" content="${pageDesc!}" />
+  <link href="https://static.nucleex.com/news/css/bhop/list.2b1b597a180cbd184d56.css" rel="stylesheet">
+</head>
+
+<body ontouchstart>
+  <div class="main-container">
+
+    <div class="nav-container">
+      <div class="nav-container_wrapper">
+        <div class="left">
+          <div class="nav-logo">
+          </div>
+          <div class="nav-menus">
+          </div>
+        </div>
+        <div class="right">
+          <div class="language" id="language">
+            <!-- 这里的页面都是直接从后台渲染的 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="news-title">
+        <p>${listTitle!}</p>
+      </div>
+      <div class="news-container">
+        <div class="news-list">
+          <#list newsList as item>
+            <div class="news-item" id="${item.newsId?c}"
+              path="/content/news/${item.newsId?c}/${item.newsPath}/${item.version?c}">
+              <div class="news-item_date" o-data="${item.published?c}">
+              </div>
+              <div class="news-item_wrapper">
+                <div class="news-item_thumb">
+                  <#if item.images??>
+                    <img src="${item.images[0]}" alt="" />
+                    <#else>
+                      <img src="https://static.nucleex.com/news/assets/thumb.png" alt="" />
+                  </#if>
+                </div>
+                <div class="news-item_content">
+                  <a class="title"
+                    href="/content/news/${item.newsId?c}/${item.newsPath}/${item.version?c}">${item.title!}</a>
+                  <div class="desc">
+                    ${item.summary!}
+                  </div>
+                  <div class="tags">
+                    <div class="tag-items" id="tag-items" o-data="${item.tags!}">
+                    </div>
+                    <div class="news-date">${item.published?number_to_date?string("yyyy-MM-dd")}</div>
+                    <div class="sources">
+                      <#if item.source??>
+                        ${source!}：${item.source!}
+                        <#else>
+                          ${original!}
+                      </#if>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </#list>
+        </div>
+        <div class="news-list-paginator">
+        </div>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="copyright_col">
+          <div class="footer-logo">
+          </div>
+          <div class="copyright_text">
+          </div>
+          <ul class="share-links">
+          </ul>
+        </div>
+        <div class="right_col">
+          <ul class="right_col-content"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="share-container">
+      <div class="share-wrapper">
+        <i class="b-icon b-icon-share"></i>
+        <span>${share!}</span>
+      </div>
+    </div>
+    <div class="download-container">
+      <div class="download-wrapper">
+
+      </div>
+    </div>
+  </div>
+  <script src="https://static.nucleex.com/news/bhop/list.2b1b597a.js"></script>
+</body>
+
+</html>

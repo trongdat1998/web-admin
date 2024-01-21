@@ -1,0 +1,15 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "orgId":"6002",
+      "withdrawLine":"1",
+      "warnLine":"1.2",
+      "appendLine":"1.2",
+      "stopLine":"1.2",
+      "created":1591683087702,
+      "updated":1591683087702
+    }
+  ]
+}

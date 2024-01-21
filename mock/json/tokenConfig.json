@@ -1,0 +1,21 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "id": 1,
+      "orgId": 123456,
+      "exchangeId": 1,
+      "tokenId":"BTC",
+      "convertRate":0.9,
+      "leverage":10,
+      "canBorrow": true,
+      "maxQuantity":"1000",
+      "minQuantity":"1",
+      "quantityPrecision":1,
+      "repayMinQuantity":"1",
+      "created":1591683087702,
+      "updated":1591683087702
+    }
+  ]
+}

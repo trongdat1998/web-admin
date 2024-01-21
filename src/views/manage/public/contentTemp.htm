@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="${language}">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" />
+
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>${news.title!}</title>
+  <meta name="keywords" content="${news.tags!}" />
+  <meta name="description" content="${news.summary!}" />
+  <link href="https://static.nucleex.com/news/css/bhop/detail.2b1b597a180cbd184d56.css" rel="stylesheet">
+</head>
+
+<body ontouchstart>
+  <div class="main-container">
+
+    <div class="nav-container">
+      <div class="nav-container_wrapper">
+        <div class="left">
+          <div class="nav-logo">
+          </div>
+          <div class="nav-menus">
+          </div>
+        </div>
+        <div class="right">
+          <div class="language" id="language">
+            <!-- 这里的页面都是直接从后台渲染的 -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="news-detail-container">
+        <div class="news-title">
+          ${news.title!}
+        </div>
+        <div class="news-desc">
+          <div class="news-date" id="news-date" o-data="${news.updated?c}"></div>
+          <div class="news-source">
+            ${news.source!}
+          </div>
+          <div class="desc">
+            ${news.summary!}
+          </div>
+        </div>
+        <div class="news-poster">
+          <#if news.images?? && news.images[1]?trim?length gt 2>
+            <img src="${news.images[1]}" alt="" />
+          </#if>
+        </div>
+        <div class="news-content">
+          ${news.content!}
+          <div class="news-tags" id="news-tags" o-data="${news.tags!}">
+            ${news.tags!}
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-container">
+      <div class="footer">
+        <div class="copyright_col">
+          <div class="footer-logo">
+          </div>
+          <div class="copyright_text">
+          </div>
+          <ul class="share-links">
+          </ul>
+        </div>
+        <div class="right_col">
+          <ul class="right_col-content"></ul>
+        </div>
+      </div>
+    </div>
+    <div class="share-container">
+      <div class="share-wrapper">
+        <i class="b-icon b-icon-share"></i>
+        <span>${share!}</span>
+      </div>
+    </div>
+    <div class="download-container">
+      <div class="download-wrapper">
+
+      </div>
+    </div>
+  </div>
+  <script src="https://static.nucleex.com/news/bhop/detail.2b1b597a.js"></script>
+</body>
+
+</html>

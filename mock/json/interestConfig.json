@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "id": 1,
+      "tokenId":"BTC",
+      "interest":0.01,
+      "interestPeriod":1,
+      "calculationPeriod":"3600",
+      "settlementPeriod":"86400",
+      "created":1591683087702,
+      "updated":1591683087702
+    },
+    {
+      "id": 2,
+      "tokenId":"USDT",
+      "interest":0.02,
+      "interestPeriod":1,
+      "calculationPeriod":"3600",
+      "settlementPeriod":"86400",
+      "created":1591683087702,
+      "updated":1591683087702
+    }
+  ]
+}

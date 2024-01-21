@@ -1,0 +1,48 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "allowTrade": true,
+      "banBuyStatus": false,
+      "banSellStatus": false,
+      "basePrecision": "0.000001",
+      "baseTokenId": "BTC",
+      "depthMerge": "",
+      "displayTokenId": "",
+      "exchangeId": "301",
+      "minPricePrecision": "0.01",
+      "minTradeAmount": "0.01",
+      "minTradeQuantity": "0.000001",
+      "published": true,
+      "quotePrecision": "",
+      "quoteTokenId": "USDT",
+      "showStatus": true,
+      "symbolAlias": "",
+      "symbolId": "BTCUSDT",
+      "symbolName": "BTC/USDT",
+      "allowMargin": 1
+    },
+    {
+      "allowTrade": true,
+      "banBuyStatus": false,
+      "banSellStatus": false,
+      "basePrecision": "0.000001",
+      "baseTokenId": "BTC",
+      "depthMerge": "",
+      "displayTokenId": "",
+      "exchangeId": "301",
+      "minPricePrecision": "0.01",
+      "minTradeAmount": "0.01",
+      "minTradeQuantity": "0.000001",
+      "published": true,
+      "quotePrecision": "",
+      "quoteTokenId": "USDT",
+      "showStatus": true,
+      "symbolAlias": "",
+      "symbolId": "BHDUSDT",
+      "symbolName": "BHD/USDT",
+      "allowMargin": 2
+    }
+  ]
+}

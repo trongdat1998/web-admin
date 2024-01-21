@@ -1,0 +1,26 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "data": [
+    {
+      "time":"1530760963866",
+      "orderId":"67213570043547648",
+      "accountId":"1018116225462",
+      "symbolId":"ETHBTC",
+      "symbolName":"ETHBTC",
+      "baseTokenId":"ETH",
+      "baseTokenName":"ETH",
+      "quoteTokenId":"BTC",
+      "quoteTokenName":"BTC",
+      "price":"0.240000000000000000",
+      "origQty":"0.900000000000000000",
+      "executedQty":"0.900000000000000000",
+      "executedAmount":"0.225000000000000000",
+      "avgPrice":"0.00045",
+      "type":"LIMIT",
+      "side":"SELL",
+      "status":"FILLED",
+      "statusDesc":"已成交"
+    }
+  ]
+}
